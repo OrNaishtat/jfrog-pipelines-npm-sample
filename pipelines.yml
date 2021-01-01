@@ -38,7 +38,7 @@ pipelines:
           repositoryName: npm-virtual        # required, npm repository name on artifactory
           autoPublishBuildInfo: true       # optional
           integrations:
-            - name: Artifactory      # required
+            - name: third_attempt      # required
           inputSteps:
             - name: npm_build_step                # required
           outputResources:
