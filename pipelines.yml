@@ -6,9 +6,9 @@ resources:
     type: GitRepo
     configuration:
       # SCM integration where the repository is located
-      gitProvider: {{ .Values.myRepo.gitProvider }}
+      gitProvider: third_attempt
       # Repository path, including org name/repo name
-      path: {{ .Values.myRepo.path }}
+      path: https://github.com/OrNaishtat/jfrog-pipelines-simple-example
       branches:
         # Specifies which branches will trigger dependent steps
         include: master
